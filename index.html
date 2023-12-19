@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hung Le Viet Portfolio" />
+    <meta property="viethung.le:title" content="Hung Le Viet Portfolio - https://github.com/viethungle0503" />
+    <meta
+      property="viethung.le:description"
+      content="Hung Le Viet Portfolio - https://github.com/viethungle0503"
+    />
+    <meta property="viethung.le:type" content="website" />
+    <meta
+      property="viethung.le:image"
+      content="https://github.com/viethungle0503"
+    />
+    <meta property="viethung.le:image:type" content="image/png" />
+    <meta property="viethung.le:image:width" content="1200" />
+    <meta property="viethung.le:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="Hung Le Viet Portfolio" />
+    <meta name="twitter:title" content="Hung Le Viet Portfolio - https://github.com/viethungle0503" />
+    <meta
+      name="twitter:description"
+      content="Hung Le Viet Portfolio - https://github.com/viethungle0503"
+    />
+    <title>Beginner a Freefolio template by OSSPH</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="navbar-branding"
+          ><img
+            class="logo"
+            src="assets/logo.svg"
+            alt="beginner logo"
+          />viethung0503</a
+        >
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#hero__section" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#project__section" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonial__section" class="nav-link">Testimony</a>
+          </li>
+          <li class="nav-item">
+            <div class="mode__con">
+              <img class="lightswitch" src="assets/moon.svg" alt="moon icon" />
+            </div>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <div class="icon nav-icon-6">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero__section">
+        <article class="left-hero" data-aos="fade-up">
+          <p class="txt__upper">Hello 👋 I'm,</p>
+          <h1 class="txt"><span>Le Viet Hung</span></h1>
+          <h2 class="txt__under">Software Developer. 💻</h2>
+          <p class="desc">
+            I’m looking forward to a fresher position as a Java Developer, where
+            I can apply and enhance my development skills and gain practical
+            experience in developing and delivering high-quality, scalable, and
+            secure applications.
+          </p>
+          <div class="soclinks">
+            <button class="btn" id="btn-contact" type="button">
+              Contact Me!
+            </button>
+          </div>
+        </article>
+        <div class="right-hero" data-aos="fade-up">
+          <img
+            id="hero__img"
+            src="assets/undraw_developer_activity_re_39tg.svg"
+            alt="right-hero"
+          />
+        </div>
+      </section>
+      <section class="projects" id="project__section">
+        <h3 class="project-heading" data-aos="fade-up">Projects</h3>
+        <div class="cards">
+          <div class="card" data-aos="fade-up">
+            <div class="card__cover">
+              <!-- <img src="https://picsum.photos/290/150" alt="Avatar" /> -->
+              <img src="./assets/UELDaily.png" alt="Avatar" />
+            </div>
+            <div class="card__content">
+              <h4><b>Mobile app UELDaily for student</b></h4>
+              <p>
+                This is a scientific research project with a group of 5 people
+                about an application for UEL students to view timetables, check
+                tuition fees, view notices sent by the school, view news from
+                the school,...
+              </p>
+              <button class="cardBtn" type="button"><a href="https://github.com/viethungle0503/UELDaily">Link here 🤘</a></button>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card__cover">
+              <img src="./assets/BHShop.png" alt="Avatar" />
+            </div>
+            <div class="card__content">
+              <h4><b>An e-commerce BHShop website</b></h4>
+              <p>
+                An e-commerce website that sell foreign food and drink with
+                basic function including: Login, Registration, Payment, Add to
+                cart or Favorite, Order, Dashboard, Review Order
+              </p>
+              <button class="cardBtn" type="button"><a href="https://github.com/viethungle0503/BHShop">Link here 🏹</a></button>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card__cover">
+              <img src="./assets/CPT.png" alt="Avatar" />
+            </div>
+            <div class="card__content">
+              <h4><b>Predict Clickstream using CPT+</b></h4>
+              <p>
+                A final grading project for the Warehouse course and data mining
+                on how to use the CPT+ algorithm to create a model to predict
+                user clickstreams on a website and compare the effectiveness
+                between algorithms.
+              </p>
+              <button class="cardBtn" type="button"><a href="https://github.com/viethungle0503/Predict-Clickstream-CPT">Link here 💘</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimony" id="testimonial__section">
+        <div class="swiper mySwiper" data-aos="fade-up">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure class="fig">
+                <blockquote>
+                  <img src="assets/open.svg" alt="open quotation" /> One gem
+                  earned is one gem saved<img
+                    src="assets/close.svg"
+                    alt="close quotation"
+                  />
+                </blockquote>
+                <figcaption>Folk idiom</figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="fig">
+                <blockquote>
+                  <img src="assets/open.svg" alt="open quotation" /> You scratch
+                  my back and I’ll scratch yours.
+                  <img src="assets/close.svg" alt="close quotation" />
+                </blockquote>
+                <figcaption>Folk idiom</figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="fig">
+                <blockquote>
+                  <img src="assets/open.svg" alt="open quotation" /> You get
+                  what you pay for
+                  <img src="assets/close.svg" alt="close quotation" />
+                </blockquote>
+                <figcaption>Folk idiom</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="indicator swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="ftr">
+      <div>
+        Made with ❤️ by
+        <a href="https://github.com/viethungle0503">viethung0503</a>>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 6000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      AOS.init({
+        once: true,
+        delay: 0,
+      });
+    </script>
+  </body>
+</html>
